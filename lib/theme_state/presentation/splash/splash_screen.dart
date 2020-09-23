@@ -49,7 +49,9 @@ class _SplashScreenState extends State<SplashScreen> {
                 style: Theme.of(context)
                     .textTheme
                     .headline5
-                    .copyWith(fontWeight: FontWeight.bold),
+                    .copyWith(fontWeight: FontWeight.bold,
+                     color: DeliveryColors.white
+                    ),
               )
             ]),
       ),
